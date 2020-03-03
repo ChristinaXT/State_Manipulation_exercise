@@ -1,38 +1,55 @@
-.App {
+@import "https://fonts.googleapis.com/css?family=Grenze|Mansalva&display=swap" rel="stylesheet";
+
+body {
+  background-color: #e8487e;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: 'Mansalva', cursive;
+  background: rgba(51, 0, 102, .7);
+  color: #ffbb00;
+  text-shadow: 5px 2px navy;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 20px 175px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color: yellow;
+  border: black;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 125%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:nth-child(3) {
+  background-color: #64b5f6;
 }
 
-.App-link {
-  color: #61dafb;
+button:nth-child(5) {
+  background-color: #64b5f6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:nth-child(9) {
+  background-color: #64b5f6;
+}
+
+container {
+  text-align: center;
 }
